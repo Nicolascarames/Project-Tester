@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{42EF70C3-063B-4A26-82C8-5187EA9EB3B9}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45193.537337963" objectName="Aliases.ESETLogCollector64_9092.dlgESETLogCollector.cbxPerfilDeRecopilaci_n" objectLeft="19" objectTop="83" objectRight="169" objectBottom="104" clickPointX="-969" clickPointY="-382" imageFileName="tcvi7398937118722.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45193.5373842593" objectName="Aliases.ESETLogCollector64_9092.dlgESETLogCollector.ComboBox" objectLeft="19" objectTop="405" objectRight="90" objectBottom="426" clickPointX="-969" clickPointY="-382" imageFileName="tcvi7402781118725.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45193.5373958333" objectName="Aliases.ESETLogCollector64_9092.dlgESETLogCollector.check" objectLeft="19" objectTop="472" objectRight="250" objectBottom="495" clickPointX="93" clickPointY="481" imageFileName="tcvi7403937118726.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45193.5374189815" objectName="Aliases.ESETLogCollector64_9092.dlgESETLogCollector.btnRecopilar" objectLeft="469" objectTop="52" objectRight="586" objectBottom="102" clickPointX="513" clickPointY="78" imageFileName="tcvi7405703118727.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45193.5374537037" objectName="Aliases.ESETLogCollector64_9092.dlgESETLogCollector2.btnAceptar" objectLeft="218" objectTop="119" objectRight="293" objectBottom="142" clickPointX="243" clickPointY="130" imageFileName="tcvi7409375118728.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

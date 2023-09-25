@@ -388,3 +388,75 @@ _Para la prueba tecnica se dispone de 4 h para probar la aplicacion 'desktop'_
       - El archivo no muestra los registros desde la antiguedad de 30 dias.
       - Solo muestra los registros de 2 dias antes a la creacion del archivo.
       - Puede que sea porque no constan mas logs que registrar en esas fechas.
+
+## Pruebas automaticas
+
+### Pruebas hechas con el programa TestComplete de SmartBear.
+
+#### Instalar aplicacion para probarlas funcionalmente, [descargar.](https://smartbear.com/product/testcomplete/desktop-testing/)
+
+#### [Archivo ejecutable en programa TestComplete](./TestProject1/TestProject1.pjs)
+
+#### [Carpeta de fotos sobre los TC automaticos](./TestProject1/TestProject1/KeywordTests/Visualizer/)
+
+#### Todos los TCA (casos de prueba automaticos) son E2E.
+
+- **TCA-A1** / **TC-19**
+
+  - Seleccion de perfil en 'Ninguno'
+  - TC relacionado: **TC-12**
+  - Link: [archivo test automatizado](./TestProject1/TestProject1/KeywordTests/Visualizer/TC_12_A1_tcKDTest/)
+  - Resultado esperado: Deveria mostrar una ventana de 'warning' informando que no se realizara la accion por no seleccionar ningun artefacto.
+  - Resultado obtenido: Lanza ventana explicando que no se ha seleccionado ningun artefacto
+  - **Estado:** ✅ Prueba pasada con exito.
+  - Prioridad: Alta.
+  - Bugs: N/A
+
+- **TCA-A2** / **TC-17**
+
+  - Creacion archivo de logs.
+  - TC relacionado: **TC-10**
+  - Link: [archivo test automatizado](./TestProject1/TestProject1/KeywordTests/Visualizer/TC_10_A2_tcKDTest/)
+  - Resultado esperado: Deveria crear y guardar un archivo en la ruta especificada.
+  - Resultado obtenido: Crea un archivo y lo guarda en la ruta especificada.
+  - **Estado:** ✅ Prueba pasada con exito.
+  - Prioridad: Alta.
+  - Bugs: N/A
+
+- **TCA-A3** / **TC-18**
+
+  - Creacion archivo de logs.
+  - TC relacionado: **TC-11**
+  - Link: [archivo test automatizado](./TestProject1/TestProject1/KeywordTests/Visualizer/TC_11_A3_tcKDTest/)
+  - Resultado esperado: Deveria crear y guardar un archivo en la ruta especificada.
+  - Resultado obtenido:
+    - Tiempo estimado de espera para la finalizacion superado.
+    - Proceso cancelado manualmente.
+  - **Estado:** 🟥 Test no superado.
+  - Prioridad: Alta.
+  - Bugs:
+    - **Bug-07:** El proceso se tuvo que cancelar manualmente por exceso de tiempo de respuesta de la aplicacion.
+
+- **TCA-A4** / **TC-19**
+
+  - Creacion archivo de logs.
+  - TC relacionado: **TC-13-15**
+  - Link: [archivo test automatizado](./TestProject1/TestProject1/KeywordTests/Visualizer/TC_13_15_A4_tcKDTest/)
+  - Resultado esperado: Deveria pedir una contraseña para cifrar el archivo, y pedirla para abrir el mismo en la ruta.
+  - Resultado obtenido:
+    - No salta ninguna ventana para solicitar una contraseña.
+    - Guarda el archivo en la ruta especificada.
+    - No se puede habrir el archivo cifrado por contener contraseña.
+  - **Estado:** 🟥 Test no superado.
+  - Prioridad: Alta.
+  - Bugs:
+    - **Bug-07:** No se puede abrir el archivo por no disponer de la contraseña, con la cual se cifro el archivo.
+
+## Documentacion extra
+
+- Problema con aplicacion:
+  - No he podido realizar las pruebas automaticas con la aplicacion [Katalon](https://katalon.com/).
+  - Despues de crear la cuenta y descargar la aplicacion, no he sido capaz de probar la aplicacion [ESET Log Collector](https://www.eset.com/int/support/log-collector/)
+  - El problema puede que sea por que la aplicacion de ESET es una version portable, y no esta instalada directamente en el sistema.
+  - Aparte de esto, la aplicacion pide permisos de administrador para su ejecucion, lo que parece un problema, a priori, para empezar con el testeo de la app.
+  - [Foto del error.](./img/Screenshot%202023-09-24%20125533.png)

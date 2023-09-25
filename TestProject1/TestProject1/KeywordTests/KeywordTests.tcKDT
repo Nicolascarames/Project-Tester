@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="TC_12_A1" key="{42EF70C3-063B-4A26-82C8-5187EA9EB3B9}" path="TC_12_A1.tcKDTest" />
+		<child name="TC_10_A2" key="{A027D599-EC50-4B31-97DF-6278A19C009C}" path="TC_10_A2.tcKDTest" />
+		<child name="TC_11_A3" key="{3E205E89-47AC-4A70-9957-B3E0A3416DC4}" path="TC_11_A3.tcKDTest" />
+		<child name="TC_13_15_A4" key="{CB155B61-479C-4C48-A3C9-B2CB41690FCE}" path="TC_13_15_A4.tcKDTest" />
+	</children>
+</Root>

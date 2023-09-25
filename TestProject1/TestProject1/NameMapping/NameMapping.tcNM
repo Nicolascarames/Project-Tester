@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{33550910-E56E-4845-A220-107A85D6AAC1}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="ESETLogCollector64_18316" Key="{021DE9DD-9210-4E29-AA6B-0CDBF5D3E954}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ESETLogCollector64_18316" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgESETLogCollector" Key="{0C72E0C5-C106-47A5-99AB-C1F3026059F2}">
+								<Image FileName="269440856" Left="0" Top="0" Right="624" Bottom="629" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ESET Log Collector" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxPerfilDeRecopilaci_n" Key="{3144F69C-76DF-4C41-80B8-BC29B14DC4D9}">
+										<Image FileName="269440856" Left="19" Top="83" Right="169" Bottom="104" />
+										<TypeInfo Item0="{389A8A9E-B496-4094-AFD3-B2AD227CD2E3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBox" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="lvObjetosARecopilar" Key="{7AD74F68-49DE-44E3-A9FB-6085F6A30E03}">
+										<Image FileName="509560543" Left="19" Top="130" Right="604" Bottom="381" />
+										<TypeInfo Item0="{FE8F65A2-2968-4BEC-A2C9-FF06A789EF1E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SysListView32" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="ComboBox" Key="{EBFBB002-6E0A-4275-A21B-1E4ADE66CEA3}">
+										<Image FileName="158207005" Left="19" Top="405" Right="90" Bottom="426" />
+										<TypeInfo Item0="{389A8A9E-B496-4094-AFD3-B2AD227CD2E3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBox" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="2" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="check" Key="{33921BBD-E8B4-40E0-A9FC-23C943DCD0DD}">
+										<Image FileName="1948237811" Left="19" Top="472" Right="250" Bottom="495" />
+										<TypeInfo Item0="{CAF25DDA-03A0-46F6-B895-4E9B9BCD12FD}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="P&amp;roteger archivo comprimido con contraseña" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnRecopilar" Key="{D8F7F1A3-0190-4C27-A75F-72801723A380}">
+										<Image FileName="-26608578" Left="469" Top="52" Right="586" Bottom="102" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Recopilar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgESETLogCollector2" Key="{39B20AD4-8F19-408F-9B4E-3665EC7E9221}">
+								<Image FileName="605145121" Left="0" Top="0" Right="361" Bottom="159" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ESET Log Collector" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnAceptar" Key="{F3534425-D73D-4F3B-85F6-E50E4F5BE8F2}">
+										<Image FileName="605145121" Left="263" Top="119" Right="338" Bottom="142" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Aceptar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ESETLogCollector64_9092" Key="{DEA4CE35-3941-4849-88EB-C7FAD359C481}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ESETLogCollector64_9092" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgESETLogCollector" Key="{8A7F4D63-C54A-4853-8396-2AE20318F2DF}">
+								<Image FileName="1151328079" Left="0" Top="0" Right="624" Bottom="629" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ESET Log Collector" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxPerfilDeRecopilaci_n" Key="{8534BB35-4303-445F-8821-5180A4275736}">
+										<Image FileName="1151328079" Left="19" Top="83" Right="169" Bottom="104" />
+										<TypeInfo Item0="{389A8A9E-B496-4094-AFD3-B2AD227CD2E3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBox" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="ComboBox" Key="{F1A59688-FAC7-4B04-A69A-B4612FF4027A}">
+										<Image FileName="-1451364009" Left="19" Top="405" Right="90" Bottom="426" />
+										<TypeInfo Item0="{389A8A9E-B496-4094-AFD3-B2AD227CD2E3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBox" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="2" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="check" Key="{979A6309-8BD4-4CB2-A265-D49F65FA3EDD}">
+										<Image FileName="-64583527" Left="19" Top="472" Right="250" Bottom="495" />
+										<TypeInfo Item0="{CAF25DDA-03A0-46F6-B895-4E9B9BCD12FD}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="P&amp;roteger archivo comprimido con contraseña" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnRecopilar" Key="{5210D3B8-102B-41EC-91E8-1F788873F93D}">
+										<Image FileName="-1830198884" Left="469" Top="52" Right="586" Bottom="102" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Recopilar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgESETLogCollector2" Key="{59D838F1-6F1C-46E0-B2BC-040599F38515}">
+								<Image FileName="33884113" Left="0" Top="0" Right="316" Bottom="159" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ESET Log Collector" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnAceptar" Key="{EAEDDC37-314A-4120-A479-340CB98CB02D}">
+										<Image FileName="33884113" Left="218" Top="119" Right="293" Bottom="142" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Aceptar" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="lvObjetosARecopilar" Key="{D9D38306-8F86-4299-A05D-1D507F2A385F}">
+										<Image FileName="2116840230" Left="19" Top="130" Right="604" Bottom="381" />
+										<TypeInfo Item0="{FE8F65A2-2968-4BEC-A2C9-FF06A789EF1E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SysListView32" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnS_" Key="{BDBC13DE-3C12-4514-9664-8BE4D59F981B}">
+										<Image FileName="-222725690" Left="157" Top="119" Right="232" Bottom="142" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Sí" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ESETLogCollector64_19792" Key="{B92AF3A9-5D6F-430B-A678-E04319D7619C}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ESETLogCollector64_19792" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgESETLogCollector" Key="{F67F8776-E5BC-4AEE-A52D-F6ECCFC0C833}">
+								<Image FileName="219408683" Left="0" Top="0" Right="624" Bottom="629" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ESET Log Collector" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxPerfilDeRecopilaci_n" Key="{A5D6123B-FC8D-40AB-95E4-B3BC6FF8CC46}">
+										<Image FileName="219408683" Left="19" Top="83" Right="169" Bottom="104" />
+										<TypeInfo Item0="{389A8A9E-B496-4094-AFD3-B2AD227CD2E3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBox" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnRecopilar" Key="{EF5C22C0-CFCC-4AF9-84F1-86DAA56CA070}">
+										<Image FileName="873043254" Left="469" Top="52" Right="586" Bottom="102" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Recopilar" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="editRegistroDelProceso" Key="{DBE8D0EC-CFB0-4364-A0F6-F91E3C4E6716}">
+										<TypeInfo Item0="{0F45A19A-43CA-4112-A1F1-D0A15411FF68}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Edit" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="2" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgESETLogCollector2" Key="{08E9DC0C-8C4E-4FC4-B8B4-2D854DD0B4A0}">
+								<Image FileName="170000584" Left="0" Top="0" Right="339" Bottom="159" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ESET Log Collector" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnS_" Key="{4D5D1585-B7CC-4BC4-BBC8-28BC9EFF0024}">
+										<Image FileName="170000584" Left="157" Top="119" Right="232" Bottom="142" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Sí" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnAceptar" Key="{80EEE200-7338-4DB0-B70B-D0574E37805D}">
+										<Image FileName="352375916" Left="121" Top="119" Right="196" Bottom="142" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Aceptar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{332B60A3-6C96-413F-A6CE-8EBEAD82097D}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{79357705-7922-4088-BB95-4504B857E5EB}">
+								<Image FileName="1455874499" Left="-8" Top="-8" Right="1928" Bottom="1040" />
+								<TypeInfo Item0="{9F232CF0-F0BD-4ECB-8C6C-45E075539BC7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ESETLogCollector64_7968" Key="{E871B3DC-DBD4-4947-927D-F1313AFED9D2}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ESETLogCollector64_7968" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgESETLogCollector" Key="{16484B85-49F7-48E7-AC76-01C917AA94C3}">
+								<Image FileName="1477328566" Left="0" Top="0" Right="624" Bottom="629" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ESET Log Collector" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cbxPerfilDeRecopilaci_n" Key="{B1D8E1B9-E8AF-4072-9476-16E2E59F5E46}">
+										<Image FileName="1477328566" Left="19" Top="83" Right="169" Bottom="104" />
+										<TypeInfo Item0="{389A8A9E-B496-4094-AFD3-B2AD227CD2E3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBox" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="lvObjetosARecopilar" Key="{F40AAD28-4602-44EF-A615-C7FB1C4F3F6D}">
+										<Image FileName="1449013041" Left="19" Top="130" Right="604" Bottom="381" />
+										<TypeInfo Item0="{FE8F65A2-2968-4BEC-A2C9-FF06A789EF1E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SysListView32" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="check" Key="{C87BE61B-FF9F-43B0-9881-C15AAFF28FD9}">
+										<Image FileName="-512048968" Left="19" Top="472" Right="250" Bottom="495" />
+										<TypeInfo Item0="{CAF25DDA-03A0-46F6-B895-4E9B9BCD12FD}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="P&amp;roteger archivo comprimido con contraseña" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnRecopilar" Key="{0253CECF-24F4-4D06-A778-5C844491BBFA}">
+										<Image FileName="-1538890237" Left="469" Top="52" Right="586" Bottom="102" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Recopilar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgESETLogCollector2" Key="{0B8D90FE-4768-4AD7-B325-7292B573A730}">
+								<Image FileName="170000584" Left="0" Top="0" Right="339" Bottom="159" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="ESET Log Collector" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnS_" Key="{9871386C-7060-468C-9390-DE0E619E2916}">
+										<Image FileName="170000584" Left="157" Top="119" Right="232" Bottom="142" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Sí" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnAceptar" Key="{8789A2E2-4403-4202-BE91-D7F54A6513F7}">
+										<Image FileName="605145121" Left="263" Top="119" Right="338" Bottom="142" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Aceptar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{DCA064EB-E22C-4AE8-922B-598B7A308AD1}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndProgman" Key="{0733808C-81A3-4044-A5B7-46DDBA62ECB8}">
+								<Image FileName="1077435134" Left="0" Top="0" Right="4480" Bottom="1440" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Progman" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Program Manager" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{73DD5EC0-5047-4A8E-8A85-F456862B32E7}" ExtendedFind="True">
+										<Image FileName="1077435134" Left="0" Top="0" Right="4480" Bottom="1440" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FolderView" Key="{50B4244B-AC2F-4859-BD7F-6B274859E578}">
+												<Image FileName="1077435134" Left="0" Top="0" Right="4480" Bottom="1440" />
+												<TypeInfo Item0="{FE8F65A2-2968-4BEC-A2C9-FF06A789EF1E}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysListView32" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="FolderView" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndCabinetWClass" Key="{C9DDFB9E-6E59-40DB-AAC9-96B45B0859F1}">
+								<Image FileName="1144673600" Left="0" Top="0" Right="1723" Bottom="1018" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ShellTabWindowClass" Key="{C5841BEF-DC03-4EA1-B82C-862C81FA013A}">
+										<Image FileName="1144673600" Left="8" Top="150" Right="1715" Bottom="1010" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ShellTabWindowClass" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DUIViewWndClassName" Key="{388EB2D9-621F-4FFA-B2AF-243F89B83D6D}">
+												<Image FileName="1144673600" Left="8" Top="150" Right="1715" Bottom="1010" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="DUIViewWndClassName" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Panel_del_explorador" Key="{2E9132B1-C025-4160-9F05-5D90E245B1B8}">
+														<Image FileName="1144673600" Left="8" Top="150" Right="1715" Bottom="1010" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="DirectUI" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="HWNDView" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="panel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Panel_del_explorador" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="CtrlNotifySink" Key="{638344F1-8660-4353-9F86-CE02CA37C687}">
+																<Image FileName="1144673600" Left="320" Top="150" Right="1715" Bottom="987" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="CtrlNotifySink" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="5" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ShellView" Key="{DE140A26-8AE6-4D3F-9F4C-FF5D473C732D}" ExtendedFind="True">
+																		<Image FileName="1144673600" Left="320" Top="150" Right="1715" Bottom="987" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="SHELLDLL_DefView" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="ShellView" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Vista_Elementos" Key="{23AF2F65-5691-434D-8A39-F8F643D911A7}">
+																				<Image FileName="1144673600" Left="320" Top="150" Right="1715" Bottom="987" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItemsView" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="lista" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Vista_Elementos" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="metadata_txt" Key="{57885F44-D457-44BB-A596-7C9A2896050A}">
+																						<Image FileName="1144673600" Left="334" Top="243" Right="1292" Bottom="270" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="elemento de lista" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="metadata_txt" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Nombre" Key="{2357B6D5-DE47-4865-B5D2-29C0B7B9FE5F}">
+																								<Image FileName="1144673600" Left="356" Top="246" Right="560" Bottom="268" />
+																								<TypeInfo Item0="{03BF53EC-3D7C-4C92-B16F-C1538CB05825}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIProperty" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="editar" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Nombre" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgContrase_aNecesaria" Key="{BDD8BBD2-C258-4F8E-8AE7-EBBE96456BDA}">
+								<Image FileName="-739394602" Left="0" Top="0" Right="358" Bottom="161" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Contraseña necesaria" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="editContrase_a" Key="{6A83C8D1-2736-46E4-95DC-5E8A0CB139D4}">
+										<Image FileName="-739394602" Left="110" Top="120" Right="251" Bottom="141" />
+										<TypeInfo Item0="{0F45A19A-43CA-4112-A1F1-D0A15411FF68}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Edit" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnAceptar" Key="{53FBD039-68B5-4192-BD71-7BFA824A5DE6}">
+										<Image FileName="149817294" Left="265" Top="59" Right="340" Bottom="82" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Aceptar" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="btnCancelar" Key="{3F86535E-E606-41D3-A547-4517C6904BDF}">
+										<Image FileName="852078012" Left="265" Top="117" Right="340" Bottom="140" />
+										<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Cancelar" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlg" Key="{5D36880E-83BD-4961-B2C5-F223867FDEE8}">
+								<Image FileName="1111284058" Left="0" Top="0" Right="382" Bottom="132" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Error de Compresión de carpetas (en zip)" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Error_de_Compresi_n_de_carpetas_en_zip_" Key="{1E89E445-1EB5-410C-810E-22A19B90E3B4}">
+										<Image FileName="1111284058" Left="8" Top="31" Right="374" Bottom="124" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="DirectUI" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="TaskDialog" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="panel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Error_de_Compresión_de_carpetas_en_zip_" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{626BC299-3F6B-40D4-A705-F414E1806420}">
+												<Image FileName="-1532614552" Left="287" Top="92" Right="364" Bottom="115" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="7" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnAceptar" Key="{D847C86B-EABB-46ED-93BD-BB85B39A791C}">
+														<Image FileName="-1532614552" Left="287" Top="92" Right="364" Bottom="115" />
+														<TypeInfo Item0="{772D7238-A183-4557-8490-A248990A8707}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Aceptar" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="ESETLogCollector64_18316" Owner="{021DE9DD-9210-4E29-AA6B-0CDBF5D3E954}">
+			<Child Name="dlgESETLogCollector" Owner="{0C72E0C5-C106-47A5-99AB-C1F3026059F2}">
+				<Child Name="cbxPerfilDeRecopilaci_n" Owner="{3144F69C-76DF-4C41-80B8-BC29B14DC4D9}" />
+				<Child Name="lvObjetosARecopilar" Owner="{7AD74F68-49DE-44E3-A9FB-6085F6A30E03}" />
+				<Child Name="ComboBox" Owner="{EBFBB002-6E0A-4275-A21B-1E4ADE66CEA3}" />
+				<Child Name="check" Owner="{33921BBD-E8B4-40E0-A9FC-23C943DCD0DD}" />
+				<Child Name="btnRecopilar" Owner="{D8F7F1A3-0190-4C27-A75F-72801723A380}" />
+			</Child>
+			<Child Name="dlgESETLogCollector2" Owner="{39B20AD4-8F19-408F-9B4E-3665EC7E9221}">
+				<Child Name="btnAceptar" Owner="{F3534425-D73D-4F3B-85F6-E50E4F5BE8F2}" />
+			</Child>
+		</Child>
+		<Child Name="ESETLogCollector64_9092" Owner="{DEA4CE35-3941-4849-88EB-C7FAD359C481}">
+			<Child Name="dlgESETLogCollector" Owner="{8A7F4D63-C54A-4853-8396-2AE20318F2DF}">
+				<Child Name="cbxPerfilDeRecopilaci_n" Owner="{8534BB35-4303-445F-8821-5180A4275736}" />
+				<Child Name="ComboBox" Owner="{F1A59688-FAC7-4B04-A69A-B4612FF4027A}" />
+				<Child Name="check" Owner="{979A6309-8BD4-4CB2-A265-D49F65FA3EDD}" />
+				<Child Name="btnRecopilar" Owner="{5210D3B8-102B-41EC-91E8-1F788873F93D}" />
+			</Child>
+			<Child Name="dlgESETLogCollector2" Owner="{59D838F1-6F1C-46E0-B2BC-040599F38515}">
+				<Child Name="btnAceptar" Owner="{EAEDDC37-314A-4120-A479-340CB98CB02D}" />
+				<Child Name="lvObjetosARecopilar" Owner="{D9D38306-8F86-4299-A05D-1D507F2A385F}" />
+				<Child Name="btnS_" Owner="{BDBC13DE-3C12-4514-9664-8BE4D59F981B}" />
+			</Child>
+		</Child>
+		<Child Name="ESETLogCollector64_19792" Owner="{B92AF3A9-5D6F-430B-A678-E04319D7619C}">
+			<Child Name="dlgESETLogCollector" Owner="{F67F8776-E5BC-4AEE-A52D-F6ECCFC0C833}">
+				<Child Name="cbxPerfilDeRecopilaci_n" Owner="{A5D6123B-FC8D-40AB-95E4-B3BC6FF8CC46}" />
+				<Child Name="btnRecopilar" Owner="{EF5C22C0-CFCC-4AF9-84F1-86DAA56CA070}" />
+				<Child Name="editRegistroDelProceso" Owner="{DBE8D0EC-CFB0-4364-A0F6-F91E3C4E6716}" />
+			</Child>
+			<Child Name="dlgESETLogCollector2" Owner="{08E9DC0C-8C4E-4FC4-B8B4-2D854DD0B4A0}">
+				<Child Name="btnS_" Owner="{4D5D1585-B7CC-4BC4-BBC8-28BC9EFF0024}" />
+				<Child Name="btnAceptar" Owner="{80EEE200-7338-4DB0-B70B-D0574E37805D}" />
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{332B60A3-6C96-413F-A6CE-8EBEAD82097D}">
+			<Child Name="BrowserWindow" Owner="{79357705-7922-4088-BB95-4504B857E5EB}" />
+		</Child>
+		<Child Name="ESETLogCollector64_7968" Owner="{E871B3DC-DBD4-4947-927D-F1313AFED9D2}">
+			<Child Name="dlgESETLogCollector" Owner="{16484B85-49F7-48E7-AC76-01C917AA94C3}">
+				<Child Name="cbxPerfilDeRecopilaci_n" Owner="{B1D8E1B9-E8AF-4072-9476-16E2E59F5E46}" />
+				<Child Name="lvObjetosARecopilar" Owner="{F40AAD28-4602-44EF-A615-C7FB1C4F3F6D}" />
+				<Child Name="check" Owner="{C87BE61B-FF9F-43B0-9881-C15AAFF28FD9}" />
+				<Child Name="btnRecopilar" Owner="{0253CECF-24F4-4D06-A778-5C844491BBFA}" />
+			</Child>
+			<Child Name="dlgESETLogCollector2" Owner="{0B8D90FE-4768-4AD7-B325-7292B573A730}">
+				<Child Name="btnS_" Owner="{9871386C-7060-468C-9390-DE0E619E2916}" />
+				<Child Name="btnAceptar" Owner="{8789A2E2-4403-4202-BE91-D7F54A6513F7}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{DCA064EB-E22C-4AE8-922B-598B7A308AD1}">
+			<Child Name="wndProgman" Owner="{0733808C-81A3-4044-A5B7-46DDBA62ECB8}">
+				<Child Name="SHELLDLL_DefView" Owner="{73DD5EC0-5047-4A8E-8A85-F456862B32E7}">
+					<Child Name="FolderView" Owner="{50B4244B-AC2F-4859-BD7F-6B274859E578}" />
+				</Child>
+			</Child>
+			<Child Name="wndCabinetWClass" Owner="{C9DDFB9E-6E59-40DB-AAC9-96B45B0859F1}">
+				<Child Name="ShellTabWindowClass" Owner="{C5841BEF-DC03-4EA1-B82C-862C81FA013A}">
+					<Child Name="DUIViewWndClassName" Owner="{388EB2D9-621F-4FFA-B2AF-243F89B83D6D}">
+						<Child Name="Panel_del_explorador" Owner="{2E9132B1-C025-4160-9F05-5D90E245B1B8}">
+							<Child Name="CtrlNotifySink" Owner="{638344F1-8660-4353-9F86-CE02CA37C687}">
+								<Child Name="ShellView" Owner="{DE140A26-8AE6-4D3F-9F4C-FF5D473C732D}">
+									<Child Name="Vista_Elementos" Owner="{23AF2F65-5691-434D-8A39-F8F643D911A7}">
+										<Child Name="metadata_txt" Owner="{57885F44-D457-44BB-A596-7C9A2896050A}">
+											<Child Name="Nombre" Owner="{2357B6D5-DE47-4865-B5D2-29C0B7B9FE5F}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="dlgContrase_aNecesaria" Owner="{BDD8BBD2-C258-4F8E-8AE7-EBBE96456BDA}">
+				<Child Name="editContrase_a" Owner="{6A83C8D1-2736-46E4-95DC-5E8A0CB139D4}" />
+				<Child Name="btnAceptar" Owner="{53FBD039-68B5-4192-BD71-7BFA824A5DE6}" />
+				<Child Name="btnCancelar" Owner="{3F86535E-E606-41D3-A547-4517C6904BDF}" />
+			</Child>
+			<Child Name="dlg" Owner="{5D36880E-83BD-4961-B2C5-F223867FDEE8}">
+				<Child Name="Error_de_Compresi_n_de_carpetas_en_zip_" Owner="{1E89E445-1EB5-410C-810E-22A19B90E3B4}">
+					<Child Name="CtrlNotifySink" Owner="{626BC299-3F6B-40D4-A705-F414E1806420}">
+						<Child Name="btnAceptar" Owner="{D847C86B-EABB-46ED-93BD-BB85B39A791C}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
